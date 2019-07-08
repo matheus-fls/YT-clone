@@ -2,7 +2,6 @@ nav{
 	top: 0;
 	width: 100%;
 	position: fixed;
-	margin: auto;
 	background-color: white;
 	height: 50px;
 }
@@ -14,9 +13,9 @@ nav{
 	margin-right: auto;
 	position: relative;
 	text-align: center;*/
-
+	top: 25%;
 	position: absolute;
-	left: 50%;
+	left: 25%;
 }
 
 .leftIcons{
@@ -26,9 +25,13 @@ nav{
 
 .rightIcons{
 	position: absolute;
-	right: 0;
+	right: 15px;
 }
 
 .navbar-img{
 	height: 50px;
+}
+
+#main-video{
+	top: 58px;
 }
