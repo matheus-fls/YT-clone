@@ -4,6 +4,7 @@ nav{
 	position: fixed;
 	background-color: white;
 	height: 50px;
+	z-index: 10;
 }
 
 .centerIcons{
@@ -32,6 +33,32 @@ nav{
 	height: 50px;
 }
 
-#main-video{
+/*#main-video{
+	position: relative;
 	top: 58px;
+	margin: auto;
+  	width: 50%;
+  	border: 3px solid green;
+  	padding: 10px;
+}
+
+#video{
+	left: 25%;
+}*/
+
+
+#main-video {
+	position: relative;
+	top: 58px;
+	padding-bottom: 36.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	background-color: black;
+}
+#main-video #video {
+	position: absolute;
+	top: 0;
+	left: 15%;
+	width: 70%;
+	height: 100%;
 }
