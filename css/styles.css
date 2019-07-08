@@ -3,18 +3,25 @@ nav{
 	width: 100%;
 	position: fixed;
 	margin: auto;
-	background-color: black;
+	background-color: white;
 }
 
-#search-bar{
-	position: center;
+.centerIcons{
+	display: block;
+	width: 20vw;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	text-align: center;
 }
 
 .leftIcons{
+	position: absolute;
 	left: 0;
 }
 
 .rightIcons{
+	position: absolute;
 	right: 0;
 }
 
