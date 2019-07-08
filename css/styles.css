@@ -4,15 +4,19 @@ nav{
 	position: fixed;
 	margin: auto;
 	background-color: white;
+	height: 50px;
 }
 
 .centerIcons{
-	display: block;
+	/*display: block;
 	width: 20vw;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
-	text-align: center;
+	text-align: center;*/
+
+	position: absolute;
+	left: 50%;
 }
 
 .leftIcons{
@@ -26,5 +30,5 @@ nav{
 }
 
 .navbar-img{
-	height: 7vw;
+	height: 50px;
 }
