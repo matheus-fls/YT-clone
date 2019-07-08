@@ -3,6 +3,19 @@ nav{
 	width: 100%;
 	position: fixed;
 	margin: auto;
+	background-color: black;
+}
+
+#search-bar{
+	position: center;
+}
+
+.leftIcons{
+	left: 0;
+}
+
+.rightIcons{
+	right: 0;
 }
 
 .navbar-img{
