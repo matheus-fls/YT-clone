@@ -44,12 +44,27 @@ nav{
 	height: 100%;
 }
 
-#desc-video{
+
+#video-title{
 	position: relative;
 	top: 50px;
 }
 
-#likeIcon, #dislikeIcon{
+#likeIcon, #dislikeIcon, #shareIcon{
 	height: 40px;
 }
 
+#desc-video{
+	position: relative;
+	top: 50px;	
+	display: flex;
+}
+
+#video-actions{
+	position: absolute;
+	right: 0;
+}
+#sepLine{
+	position: relative;
+	top: 50px;
+}
