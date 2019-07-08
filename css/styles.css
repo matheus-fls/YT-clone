@@ -1,0 +1,10 @@
+nav{
+	top: 0;
+	width: 100%;
+	position: fixed;
+	margin: auto;
+}
+
+.navbar-img{
+	height: 7vw;
+}
