@@ -36,8 +36,36 @@ nav{
 	position: absolute;
 	right: 15px;
 	width: 22%;
-	padding: auto;
+	height: 100%;
 }
+
+#navAvatar{
+	padding-right: 0;
+	margin-left: auto;
+	margin-right: 0;
+	border-right: 0;
+	right: 0;
+	position: absolute;
+}
+
+#navMenu{
+	padding-right: 0;
+	margin-left: auto;
+	margin-right: 0;
+	border-right: 0;
+	right: 50px;
+	position: absolute;	
+}
+
+#navDropDown{
+	padding-right: 0;
+	margin-left: auto;
+	margin-right: 0;
+	border-right: 0;
+	right: 100px;
+	position: absolute;	
+}
+
 
 .navbar-img{
 	height: 50px;
