@@ -1,4 +1,4 @@
-nav{
+nav {
 	top: 0;
 	width: 100%;
 	position: fixed;
@@ -8,7 +8,7 @@ nav{
 	display: inline-block;
 }
 
-.centerIcons{
+.centerIcons {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	position: absolute;
@@ -19,27 +19,26 @@ nav{
 	align-content: center;
 }
 
-
-#search-bar{
+#search-bar {
 	width: 80%;
 	height: 95%;
 }
 
-.leftIcons{
+.leftIcons {
 	position: absolute;
 	left: 0;
 	width: 22%;
-	
+
 }
 
-.rightIcons{
+.rightIcons {
 	position: absolute;
 	right: 15px;
 	width: 22%;
 	height: 100%;
 }
 
-#navAvatar{
+#navAvatar {
 	padding-right: 0;
 	margin-left: auto;
 	margin-right: 0;
@@ -48,33 +47,34 @@ nav{
 	position: absolute;
 }
 
-#navMenu{
+#navMenu {
 	padding-right: 0;
 	margin-left: auto;
 	margin-right: 0;
 	border-right: 0;
 	right: 50px;
-	position: absolute;	
+	position: absolute;
 }
 
-#navDropDown{
+#navDropDown {
 	padding-right: 0;
 	margin-left: auto;
 	margin-right: 0;
 	border-right: 0;
 	right: 100px;
-	position: absolute;	
+	position: absolute;
 }
 
 
-.navbar-img{
+.navbar-img {
 	height: 50px;
 }
 
 #main-video {
 	position: relative;
 	top: 58px;
-	padding-bottom: 36.25%; /* 16:9 */
+	padding-bottom: 36.25%;
+	/* 16:9 */
 	padding-top: 25px;
 	height: 0;
 	background-color: black;
@@ -89,21 +89,23 @@ nav{
 }
 
 
-#video-title{
+#video-title {
 	position: relative;
 	top: 50px;
 }
 
-.flex-img{
+.flex-img {
 	margin-right: 5px;
 	margin-left: 5px;
 }
 
-#likeIcon, #dislikeIcon, #shareIcon{
+#likeIcon,
+#dislikeIcon,
+#shareIcon {
 	height: 40px;
 }
 
-#video-actions{
+#video-actions {
 	position: relative;
 	width: 16%;
 	display: flex;
@@ -112,82 +114,95 @@ nav{
 	align-items: center;
 }
 
-.info{
+.info {
 	display: flex;
 	top: 50px;
 	position: relative;
 	width: 100%;
 }
 
-#video-views{
+#video-views {
 	position: relative;
 	width: 84%;
 }
 
-#sepLine{
+#sepLine {
 	position: relative;
 	top: 50px;
 }
 
-.description{
+.description {
 	display: flex;
 	top: 50px;
 	position: relative;
 }
 
-.main-div{
+.main-div {
 	width: 70%;
-	height: 100%;
-	background-color: aquamarine;	
+	height: 100px;
 	display: flex;
 }
 
-.side-div{
+.side-div {
 	width: 30%;
 	height: 100%;
-	background-color: blueviolet;
 }
 
-.vid-wrap{
+.vid-wrap {
 	display: flex;
 	width: 100%;
 }
-.videoImg{
+
+.videoImg {
 	width: 100%;
 }
-.side-img{
+
+.side-img {
 	width: 50%;
 }
 
-.side-desc{
+.side-desc {
 	width: 50%;
 	text-align: center;
 	margin: auto;
 }
 
-#user-data{
+#user-data {
 	display: flex;
-	width: 70%;
+	width: 75%;
 }
 
-#subscribe{
+#subscribe {
 	width: 30%;
 }
 
-#user-avatar{
+#user-avatar {
 	justify-content: center;
 	align-items: center;
 	display: flex;
 }
 
-#userAvatar{
+#userAvatar {
 	width: 200px;
 	margin: auto;
 }
 
-#user-name{
-	width: 30%;
-	text-align: center;
+#user-name {
+	width: 35%;
+	text-align: left;
+	margin-left: 10px;
+}
+
+#subscribe {
+	width: 25%;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 10px;
+}
+
+#subscribeIcon {
+	height: 100%;
+
 }
 
 /*
