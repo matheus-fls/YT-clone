@@ -5,22 +5,38 @@ nav{
 	background-color: white;
 	height: 50px;
 	z-index: 10;
+	display: inline-block;
 }
 
 .centerIcons{
-	top: 25%;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	position: absolute;
 	left: 25%;
+	width: 50%;
+	height: 30px;
+	padding: 0;
+	align-content: center;
+}
+
+
+#search-bar{
+	width: 80%;
+	height: 95%;
 }
 
 .leftIcons{
 	position: absolute;
 	left: 0;
+	width: 22%;
+	
 }
 
 .rightIcons{
 	position: absolute;
 	right: 15px;
+	width: 22%;
+	padding: auto;
 }
 
 .navbar-img{
