@@ -94,10 +94,6 @@ nav{
 	top: 50px;
 }
 
-.flex-container{
-	display: flex;
-}
-
 .flex-img{
 	margin-right: 5px;
 	margin-left: 5px;
@@ -109,21 +105,23 @@ nav{
 
 #video-actions{
 	position: relative;
-	right: 0;
-	top: 5px;
-	width: 10%;
+	width: 16%;
+	display: flex;
+	margin: auto;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .info{
 	display: flex;
 	top: 50px;
 	position: relative;
+	width: 100%;
 }
 
 #video-views{
-	
 	position: relative;
-	width: 90%;
+	width: 84%;
 }
 
 #sepLine{
@@ -137,10 +135,11 @@ nav{
 	position: relative;
 }
 
-.ghost-div{
+.main-div{
 	width: 70%;
 	height: 100%;
 	background-color: aquamarine;	
+	display: flex;
 }
 
 .side-div{
@@ -165,6 +164,32 @@ nav{
 	text-align: center;
 	margin: auto;
 }
+
+#user-data{
+	display: flex;
+	width: 70%;
+}
+
+#subscribe{
+	width: 30%;
+}
+
+#user-avatar{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+#userAvatar{
+	width: 200px;
+	margin: auto;
+}
+
+#user-name{
+	width: 30%;
+	text-align: center;
+}
+
 /*
 #desc-video{
 	width: 100%;
