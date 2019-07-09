@@ -149,6 +149,18 @@ nav{
 	background-color: blueviolet;
 }
 
+.vid-wrap{
+	display: flex;
+	width: 100%;
+}
+
+.side-img{
+	width: 50%;
+}
+
+.side-desc{
+	width: 50%;
+}
 /*
 #desc-video{
 	width: 100%;
