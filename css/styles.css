@@ -123,10 +123,6 @@ nav {
 	align-items: center;
 }
 
-
-
-
-
 #sepLine {
 	position: relative;
 	top: 50px;
@@ -184,17 +180,17 @@ nav {
 	width: 30%;
 }
 
-#user-avatar {
+#avatarContainer {
 	justify-content: center;
 	align-items: center;
 	display: flex;
-
 }
 
 #userAvatar {
 	width: 200px;
 	margin: auto;
 	border-radius: 100%;
+	height: 100px;
 }
 
 #user-name {
@@ -209,13 +205,12 @@ nav {
 	width: 25%;
 	display: flex;
 	justify-content: flex-end;
-	margin-right: 10px;
+	margin-right: 0px;
 }
 
 #subscribeIcon {
 	height: 100%;
 	border-radius: 10%;
-
 }
 
 /*
