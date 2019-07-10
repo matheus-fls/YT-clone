@@ -106,7 +106,7 @@ nav {
 	border-radius: 20%;
 }
 
-#video-div{
+#title-container{
 	position: relative;
 	top: 50px;
 }
@@ -153,7 +153,7 @@ h1{
 	top: 50px;
 }
 
-.description {
+.description-and-side {
 	display: flex;
 	top: 50px;
 	position: relative;
