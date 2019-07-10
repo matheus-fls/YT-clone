@@ -193,12 +193,19 @@ nav {
 	height: 100px;
 }
 
-#user-name {
+.user-name {
 	width: 35%;
 	text-align: left;
-	margin-left: 10px;
-	bottom: 10px;
+	margin-left: 20px;
+	margin-top: auto;
+	margin-bottom: auto; 
+}
 
+.user-name h4, .user-name p{
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
 
 #subscribe {
