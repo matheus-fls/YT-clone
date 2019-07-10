@@ -1,10 +1,7 @@
-*{
-	font-family: 'Poppins', sans-serif, Times;
-}
-
 body{
 	background-color: #768692;
 	margin: 0;
+	font-family: 'Poppins', sans-serif, Times;
 }
 
 nav {
