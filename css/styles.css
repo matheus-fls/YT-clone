@@ -36,7 +36,7 @@ nav {
 .leftIcons {
 	position: absolute;
 	left: 5px;
-	width: 22%;
+	height: 50px;
 
 }
 
@@ -81,7 +81,7 @@ nav {
 
 #main-video {
 	position: relative;
-	top: 58px;
+	top: 50px;
 	padding-bottom: 36.25%;
 	padding-top: 25px;
 	height: 0;
