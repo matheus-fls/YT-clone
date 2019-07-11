@@ -1,4 +1,4 @@
-body{
+body {
 	background-color: #768692;
 	margin: 0;
 	font-family: 'Poppins', sans-serif, Times;
@@ -8,7 +8,7 @@ nav {
 	top: 0;
 	width: 100%;
 	position: fixed;
-	background-color: 	#425563;
+	background-color: #425563;
 	height: 50px;
 	z-index: 10;
 	display: inline-block;
@@ -75,13 +75,13 @@ nav {
 	border: 0;
 }
 
-.title-container{
+.title-container {
 	position: relative;
 	top: 50px;
 	width: 600px;
 }
 
-.video-title{
+.video-title {
 	display: inline-block;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -166,10 +166,11 @@ nav {
 	text-align: left;
 	margin-left: 20px;
 	margin-top: auto;
-	margin-bottom: auto; 
+	margin-bottom: auto;
 }
 
-.user-name h4, .user-name p{
+.user-name h4,
+.user-name p {
 	margin-top: auto;
 	margin-bottom: auto;
 	padding-bottom: 5px;
