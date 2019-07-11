@@ -82,6 +82,7 @@ body {
 	}
 	
 	.video-title {
+	background-color:rgb(232,237,238);
 	background-color:rgba(232,237,238,0.5);
 	border-radius:20%;
 	display:inline-block;
@@ -97,8 +98,11 @@ body {
 	}
 	
 	.video-views {
-	padding-left:10px;
 	width:84%;
+	}
+
+	.video-views h4{
+	padding-left:10px;
 	}
 	
 	.video-actions {
