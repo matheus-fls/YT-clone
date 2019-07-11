@@ -135,6 +135,7 @@ body {
 	}
 	
 	.main-div {
+	background-color:rgb(232,237,238);
 	background-color:rgba(232,237,238,0.5);
 	display:flex;
 	height:100px;
@@ -168,11 +169,16 @@ body {
 	width:35%;
 	}
 	
-	.user-name h4,.user-name p {
+	h5,.user-name p {
 	margin-bottom:auto;
 	margin-top:auto;
 	padding-bottom:5px;
 	padding-top:5px;
+	}
+
+	h5{
+	font-size: 1em;
+	font-weight: bolder;
 	}
 	
 	.subscribe {
