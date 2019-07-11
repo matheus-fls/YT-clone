@@ -101,7 +101,7 @@ body {
 	width:84%;
 	}
 
-	.video-views h4{
+	h4{
 	padding-left:10px;
 	}
 	
@@ -169,7 +169,7 @@ body {
 	width:35%;
 	}
 	
-	h5,.user-name p {
+	.user-name p {
 	margin-bottom:auto;
 	margin-top:auto;
 	padding-bottom:5px;
@@ -179,6 +179,10 @@ body {
 	h5{
 	font-size: 1em;
 	font-weight: bolder;
+	margin-bottom:auto;
+	margin-top:auto;
+	padding-bottom:5px;
+	padding-top:5px;
 	}
 	
 	.subscribe {
@@ -194,11 +198,15 @@ body {
 	}
 	
 	.side-div {
+	background-color:rgb(232,237,238);
 	background-color:rgba(232,237,238,0.5);
 	height:100%;
+	width:30%;
+	}
+
+	.side-div-cont{
 	padding-left:10px;
 	padding-right:10px;
-	width:30%;
 	}
 	
 	.vid-wrap {
