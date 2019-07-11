@@ -87,6 +87,8 @@ nav {
 	border-radius: 20%;
 	background-color: rgb(232, 237, 238);
 	background-color: rgba(232, 237, 238, 0.5);
+	font-size: 2em;
+	font-weight: bolder;
 }
 
 .info {
